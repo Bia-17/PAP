@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=PT+Serif+Caption&family=PT+Serif:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "PT Serif", serif;
+}
+
+body {
+    background-color: #F5F5F5;
+}
+
+.terminar-sessao,
+.btn-voltar {
+    background-color: #415B4F;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    text-decoration: none;
+    display: inline-block;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.terminar-sessao:hover,
+.btn-voltar:hover {
+    background-color: #32463d;
+    transform: scale(1.05);
+}
+
+.btn-voltar {
+    background-color: #415B4F;
+    border-radius: 30px;
+    font-weight: bold;
+    margin: 20px 0;
+    padding: 12px 24px;
+}
+
+.btn-voltar:hover {
+    background-color: #32463d;
+    transform: scale(1.05);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #415B4F;
+    padding: 20px 60px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo h1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+.menu {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.perfil {
+    max-width: 600px;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-size: 26px;
+    color: #415B4F;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.input-box {
+    margin-bottom: 20px;
+}
+
+.input-box label {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+}
+
+.input-box input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    outline: none;
+}
+
+.input-box input:focus {
+    border-color: #415B4F;
+}
+
+.btn-save {
+    background-color: #415B4F;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn-save:hover {
+    background-color: #32463d;
+    transform: scale(1.05);
+}
+
+.msg {
+    font-size: 16px;
+    color: green;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+    .perfil {
+        padding: 20px;
+    }
+}

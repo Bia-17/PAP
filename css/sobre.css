@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=PT+Serif+Caption&family=PT+Serif:wght@400;700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "PT Serif", serif;
+}
+
+body{
+  background-color: #F1EBE5;
+  scroll-behavior: smooth;
+}
+
+.header-banner {
+    position: relative;
+    width: 100%;
+    height: 50px;
+}
+
+.header-banner h1{
+    color: #000;
+    padding: 20px; 
+    font-size: 32px;
+    font-style: italic;
+    text-align: center;
+}
+
+.quem-somos, .missao, .o-que-fazemos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    gap: 50px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.texto1, .texto2, .texto3 {
+    max-width: 800px;
+}
+
+.texto1 h1, .texto2 h1, .texto3 h1 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #423F32;
+}
+
+.texto1 p, .texto2 p, .texto3 p {
+    font-size: 20px;
+    line-height: 1.5;
+    color: #423F32;
+}
+
+.imagem1, .imagem2, .imagem3 {
+    width: 70%;
+    max-width: 800px;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagem1 img, .imagem2 img, .imagem3 img {
+
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* scroll fade */
+
+.fade-in {
+    opacity: 0; 
+    transform: translateY(20px); 
+    transition: opacity 1s ease, transform 1s ease; 
+}
+
+.fade-in.visible {
+    opacity: 1; 
+    transform: translateY(0); 
+}
+
+/* footer */
+
+.footer{
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.footer div{
+    flex: 1;
+    position: relative;
+}
+
+.footer h3{
+    display: inline-block;
+    position: relative;
+    font-size: 28px;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+.footer a, .footer p{
+    color: #fff;
+    font-size: 22px;
+    text-decoration: none;
+    display: block;
+    margin: 5px 0;
+    margin-bottom: 10px;
+}
+
+.footer .social-icons a{
+    display: inline-block;
+    font-size: 32px;
+    gap: 25px;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.footer-copyright{
+    text-align: right;
+    background-color: #000;
+    color: #fff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-top: 1px solid #fff;
+    padding-right: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    .header-banner h1 {
+      font-size: 24px;
+      padding: 10px;
+    }
+  
+    .quem-somos,
+    .missao,
+    .o-que-fazemos {
+      padding: 20px;
+      gap: 30px;
+      margin-bottom: 60px;
+    }
+  
+    .texto1 h1,
+    .texto2 h1,
+    .texto3 h1 {
+      font-size: 24px;
+    }
+  
+    .texto1 p,
+    .texto2 p,
+    .texto3 p {
+      font-size: 16px;
+    }
+  
+    .imagem1,
+    .imagem2,
+    .imagem3 {
+      width: 100%;
+      padding: 0 10px;
+    }
+  
+    .imagem1 img,
+    .imagem2 img,
+    .imagem3 img {
+      width: 100%;
+      height: auto;
+    }
+  
+    .footer {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      padding: 20px 10px;
+    }
+  
+    .footer div {
+      margin-bottom: 20px;
+    }
+  
+    .footer h3 {
+      font-size: 20px;
+    }
+  
+    .footer a,
+    .footer p {
+      font-size: 16px;
+    }
+  
+    .footer .social-icons a {
+      font-size: 24px;
+      margin: 0 10px;
+    }
+  
+    .footer-copyright {
+      font-size: 14px;
+      text-align: center;
+      padding-right: 0;
+    }
+  }
+  

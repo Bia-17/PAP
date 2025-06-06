@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=PT+Serif+Caption&family=PT+Serif:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "PT Serif", serif;
+}
+
+body{
+    background-color: #F1EBE5;
+}
+
+#carrinho{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.container-principal{
+    padding-top: 50px;
+}
+
+.carrinho-container{
+    max-width: 500px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+h2{
+    color: #423F32;
+    border-bottom: 1px solid #423F32;
+    text-align: center;
+    padding: 20px;
+    padding-bottom: 10px;
+}
+
+p{
+    text-align: center;
+    color: #423F32;
+}
+
+.carrinho-item{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+    padding: 10px;
+    max-width: 560px;
+    border-bottom: 1px solid #ddd;
+    overflow: hidden;
+    width: 100%;
+}
+
+.carrinho-item img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.carrinho-item .detalhes{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    word-wrap: break-word;
+}
+
+.remover-btn{
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.remover-btn:hover{
+    background-color: #cc0000;
+}
+
+.total{
+    text-align: right;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.checkout-btn{
+    display: block;
+    margin: 20px auto;
+    align-items: center;
+    color: white;
+    background-color: #415B4F;
+    border: none;
+    padding: 10px;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.checkout-btn:hover{
+    background-color: #557566;
+}

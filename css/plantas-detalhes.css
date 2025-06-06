@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=PT+Serif+Caption&family=PT+Serif:wght@400;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f3f4f6;
+    font-family: "PT Serif", serif;
+    margin: 0;
+    padding: 0;
+}
+
+.detalhes-container {
+    max-width: 800px;
+    margin: 2rem auto;
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.detalhes-container h1 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: #415B4F;
+}
+
+.detalhe {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #eee;
+}
+
+.detalhe strong {
+    width: 180px;
+    display: inline-block;
+    color: #333;
+}
+
+.detalhe span {
+    flex: 1;
+    color: #555;
+}
+
+.detalhe:last-child {
+    border-bottom: none;
+}
+
+.imagem-planta {
+    display: block;
+    margin: 2rem auto;
+    max-width: 300px;
+    height: auto;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+
+.voltar {
+    display: block;
+    text-align: center;
+    margin-top: 2rem;
+    text-decoration: none;
+    color: #415B4F;
+    font-weight: bold;
+}
+
+.voltar:hover {
+    text-decoration: underline;
+}

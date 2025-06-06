@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "PT Serif", serif;
+    background-color: #f8f2eb;
+    padding: 30px;
+    color: #423F32;
+}
+
+.reviews-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #415B4F;
+}
+
+.mensagem-sucesso {
+    text-align: center;
+    margin-bottom: 20px;
+    color: green;
+    font-weight: bold;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #415B4F;
+    color: white;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+a {
+    color: #415B4F;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #2e4239;
+}
+
+.voltar-btn {
+    display: inline-block;
+    margin-top: 20px;
+    color: #415B4F;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.voltar-btn:hover {
+    color: #2e4239;
+    text-decoration: underline;
+}

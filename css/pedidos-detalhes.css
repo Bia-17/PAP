@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=PT+Serif+Caption&family=PT+Serif:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "PT Serif", serif;
+    background-color: #f8f2eb;
+    padding: 20px;
+    color: #423F32;
+}
+
+.detalhes-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 900px;
+    margin: 20px auto;
+}
+
+h1 {
+    font-size: 2rem;
+    color: #423F32;
+    margin-bottom: 20px;
+}
+
+.detalhe {
+    margin-bottom: 15px;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+.detalhe strong {
+    color: #415B4F;
+}
+
+.voltar-btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 24px;
+    background-color: #415B4F;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.voltar-btn:hover {
+    background-color: #587c6c;
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+ul li {
+    padding: 5px;
+    background-color: #f1f1f1;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+ul li:hover {
+    background-color: #e0e0e0;
+}
+
+.imprimir-btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 24px;
+    background-color: #415B4F;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    border: none;
+    transition: background-color 0.3s;
+}
+
+.imprimir-btn:hover {
+    background-color: #587c6c;
+    text-decoration: none;
+}

@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=PT+Serif+Caption&family=PT+Serif:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "PT Serif", serif;
+}
+
+body{
+    background-color: #F1EBE5;
+}
+
+.detalhes-pedido {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-size: 28px;
+    color: #415B4F;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+p {
+    font-size: 18px;
+    margin-bottom: 15px;
+    line-height: 1.6;
+    color: #333;
+}
+
+.detalhes-pedido .info-box {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.detalhes-pedido .info-box strong {
+    font-weight: bold;
+    color: #415B4F;
+}
+
+.detalhes-pedido .info-box .valor {
+    font-size: 20px;
+    color: #415B4F;
+    font-weight: bold;
+}
+
+.detalhes-pedido .btn-voltar {
+    background-color: #415B4F;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    display: inline-block;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.detalhes-pedido .btn-voltar:hover {
+    background-color: #32463d;
+    transform: scale(1.05);
+}
+
+@media (max-width: 768px) {
+    .detalhes-pedido {
+        padding: 15px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+}

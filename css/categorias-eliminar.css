@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&display=swap');
+
+body {
+    font-family: "PT Serif", serif;
+    background-color: #f8f2eb;
+    padding: 30px;
+    color: #423F32;
+}
+
+.eliminar-container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+h1 {
+    color: #c0392b;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #c0392b;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+button[type="submit"]:hover {
+    background-color: #e74c3c;
+}
+
+.voltar-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #415B4F;
+    color: white;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.voltar-btn:hover {
+    background-color: #587c6c;
+}

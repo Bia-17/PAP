@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=PT+Serif+Caption&family=PT+Serif:wght@400;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "PT Serif", serif;
+    background-color: #f8f2eb;
+    padding: 20px;
+    color: #423F32;
+}
+
+.mensagem-sucesso {
+    background-color: #d4edda;
+    color: #415B4F;
+    padding: 12px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+    color: #423F32;
+}
+
+.create-btn {
+    display: inline-block;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    background-color: #415B4F;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+}
+
+.create-btn:hover {
+    background-color: #587c6c;
+}
+
+.voltar-btn {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.voltar-btn button {
+    background-color: #415B4F !important;
+    color: white !important;
+    border: none !important;
+    padding: 12px 24px !important;
+    font-size: 16px !important;
+    border-radius: 5px !important;
+    cursor: pointer !important;
+}
+
+
+.voltar-btn button:hover {
+    background-color: #587c6c;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+thead {
+    background-color: #415B4F;
+    color: #fff;
+}
+
+th, td {
+    padding: 12px 16px;
+    text-align: left;
+    border-bottom: 1px solid #eee;
+}
+
+tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+.actions a {
+    margin-right: 10px;
+    text-decoration: none;
+    color: #3498db;
+    font-weight: bold;
+}
+
+.actions a:hover {
+    text-decoration: underline;
+}
+
+.actions a:nth-child(1) {
+    color: #415B4F;
+}
+
+.actions a:nth-child(2) {
+    color: #415B4F;
+}
+
+.actions a:nth-child(3) {
+    color: #415B4F;
+}
+
+.planta-img {
+    width: 100px;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+}
+
+.planta-img:hover {
+    transform: scale(1.05);
+}

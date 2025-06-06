@@ -1,0 +1,216 @@
+.barralado{
+    background-color: #101010;
+    width: 270px;
+    margin: 16px;
+    position: fixed;
+    border-radius: 16px;
+    height: calc(100vh - 32px);
+    transition: 0.4s ease;
+    z-index: 9999;
+    left: 0;
+}
+
+.barralado .header{
+    position: relative;
+    display: flex;
+    padding: 25px 20px;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.barralado .toggler{
+    position: absolute;
+    right: 25px;
+    height: 35px;
+    width: 35px;
+    border: none;
+    color: #101010;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 8px;
+    background: #fff;
+    transition: 0.4s ease;
+    margin: 0;
+    padding: 0;
+}
+
+.barralado .secondary-nav{
+    position: absolute;
+    bottom: 30px;
+    width: 100%;
+}
+
+.barralado.collapsed .barralado .lista-nav{
+    transform: translateY(65px);
+}
+
+.barralado.collapsed .barralado-header .toggler{
+    transform: translate(-4px, 65px);
+}
+
+.barralado .toggler:hover{
+    background: #F1EBE5;
+}
+
+.barralado .toggler span{
+    font-size: 1.75rem;
+    transition: 0.4s ease;
+}
+
+.barralado .collapsed{
+    width: 85px;
+}
+
+.barralado .link-nav {
+    text-decoration: none;
+    color: #F1EBE5;
+    display: flex;
+    gap: 12px;
+    white-space: nowrap;
+    border-radius: 8px;
+    align-items: center;
+    padding: 12px 15px;
+    transition: 0.4s ease;
+}
+
+.barralado.collapsed .barralado-header .toggler span{
+    transform: rotate(180deg);
+}
+
+.barralado .lista-nav{
+    list-style: none;
+    display: flex;
+    gap: 4px;
+    padding: 0 15px;
+    flex-direction: column;
+    transform: translateY(15px);
+    transition: 0.4s ease;
+}
+
+.barralado .link-nav:hover{
+    color: #101010;
+    background: #F1EBE5;
+}
+
+.barralado.collapsed{
+    width: 85px;
+}
+
+.barralado .link-nav .label-nav{
+    transition: opacity 0.4s ease;
+    
+}
+
+.barralado.collapsed .link-nav .label-nav{
+    opacity: 0;
+    pointer-events: none;
+
+}
+
+.barralado .conteudo-nav{
+    position: relative;
+}
+
+.barralado .tooltip{
+    position: absolute;
+    top: -10px;
+    opacity: 0;
+    display: none;
+    pointer-events: none;
+    left: calc(100% + 25px);
+    background: #101010;
+    color: #F1EBE5;
+    padding: 6px 12px;
+    border-radius: 8px;
+    white-space: nowrap;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    transition: 0s;
+}
+
+.barralado .conteudo-nav:hover .tooltip{
+    opacity: 1;
+    pointer-events: auto;
+    transform: translateY(50%);
+    transition: 0.4s ease;
+}
+
+.barralado.collapsed .tooltip{
+    display: block;
+}
+
+.menu-toggle {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    z-index: 10000;
+    background-color: #fff;
+    color: #101010;
+    border: none;
+    border-radius: 8px;
+    height: 45px;
+    width: 45px;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.menu-toggle span {
+    font-size: 28px;
+}
+
+@media screen and (max-width: 768px) {
+    .menu-toggle {
+        display: flex;
+    }
+
+    .barralado .toggler {
+        display: none !important;
+    }    
+
+    .barralado {
+        position: fixed;
+        margin: 0;
+        top: 0;
+        left: 0;
+        width: 85%;
+        height: 100vh;
+        background-color: #101010;
+        transform: translateX(-100%);
+        transition: transform 0.3s ease;
+        z-index: 9999;
+    }
+
+    .barralado.open {
+        transform: translateX(0);
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1124px) {
+    .menu-toggle {
+        display: flex;
+    }
+
+    .barralado .toggler {
+        display: none !important;
+    }    
+
+    .barralado {
+        position: fixed;
+        margin: 0;
+        top: 0;
+        left: 0;
+        width: 85%;
+        height: 100vh;
+        background-color: #101010;
+        transform: translateX(-100%);
+        transition: transform 0.3s ease;
+        z-index: 9999;
+    }
+
+    .barralado.open {
+        transform: translateX(0);
+    }
+}

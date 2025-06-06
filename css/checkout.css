@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=PT+Serif+Caption&family=PT+Serif:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "PT Serif", serif;
+}
+
+body {
+    background-color: #F1EBE5;
+}
+
+.container-principal{
+    padding-top: 50px;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2, h3 {
+    color: #423F32;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+
+.carrinho {
+    margin-bottom: 20px;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 15px;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 10px;
+}
+
+.item img {
+    width: 60px;
+    height: 60px;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #423F32;
+}
+
+input, select {
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+input:focus, select:focus {
+    border-color: #415B4F;
+    outline: none;
+}
+
+.btn-finalizar {
+    margin-top: 20px;
+    width: 30%;
+    padding: 10px;
+    background-color: #415B4F;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn-finalizar:hover {
+    background-color: #557566;
+}
+
+.descricao-servico {
+    margin-bottom: 10px;
+    font-size: 0.9em;
+    color: #555;
+    margin: 5px 0 15px 25px;
+}
+
+@media (max-width: 600px) {
+    .container {
+        padding: 15px;
+        margin: 10px;
+        max-width: 100%;
+        border-radius: 0;
+        box-shadow: none;
+    }
+
+    .item {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+
+    .item img {
+        width: 100%;
+        max-width: 150px;
+        height: auto;
+        border-radius: 8px;
+    }
+
+    .telefone-container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 5px;
+    }
+
+    .telefone-container .prefixo {
+        flex-shrink: 0;
+        padding: 8px 12px;
+        background-color: #ddd;
+        border-radius: 5px 0 0 5px;
+        font-weight: bold;
+    }
+
+    .telefone-container input {
+        flex-grow: 1;
+        border-radius: 0 5px 5px 0;
+        margin-top: 0;
+    }
+
+    input, select {
+        font-size: 16px;
+    }
+
+    .btn-finalizar {
+        font-size: 18px;
+        padding: 12px;
+    }
+}

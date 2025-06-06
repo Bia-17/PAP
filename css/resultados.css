@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&display=swap');
+
+body {
+    font-family: "PT Serif", serif;
+    padding: 20px;
+    background-color: #F1EBE5;
+}
+
+.container {
+    max-width: 900px;
+    margin: auto;
+}
+
+h1{
+    color: #423F32;
+}
+
+h2 {
+    color: #423F32;
+    border-bottom: 1px solid #423F32;
+    padding-bottom: 5px;
+    margin-top: 40px;
+}
+
+.resultado {
+    background-color: white;
+    padding: 20px;
+    border-radius: 12px;
+    margin-top: 15px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+}
+
+.resultado:hover {
+    transform: scale(1.02);
+}
+
+.resultado h3 {
+    margin-top: 0;
+    color: #415B4F;
+}
+
+.resultado p {
+    margin: 8px 0;
+}
+
+a {
+    text-decoration: none;
+    color: #415B4F;
+    font-weight: 500;
+}
+
+a:hover {
+    color: #2e7d32;
+    text-decoration: underline;
+}
+
+.voltar-btn {
+    display: inline-block;
+    margin-top: 30px;
+    background-color: #415B4F;
+    color: white;
+    padding: 10px 18px;
+    border-radius: 6px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.voltar-btn:hover {
+    background-color: #537767;
+    color: white;
+}
