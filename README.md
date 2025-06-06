@@ -19,7 +19,7 @@ Projeto de Aptidão Profissional 12º Ano
 ## *Table of Contents*
 - [Overview](#Overview)
 - [Getting Started](#Getting-Started)
-  - [Prerequisites](#Prerequisites)
+  - [Prerequisites](##Prerequisites)
   - [Instalattion](#Installation)
   - [Usage](#Usage)
   - [Testing](#Testing)
@@ -41,7 +41,7 @@ This project aims to facilitate the evaluation of students’ skills and knowled
 
 # Getting Started
 
-# Prerequisites
+## Prerequisites
 
 This project requires the following dependencies:
 
