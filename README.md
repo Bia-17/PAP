@@ -18,9 +18,9 @@ Projeto de Aptidão Profissional 12º Ano
 
 ## *Table of Contents*
 - [Overview](#Overview)
-- [Getting Started](#GettingStarted)
+- [Getting Started](#Getting-Started)
   - [Prerequisites](#Prerequisites)
-  - [Instalattion](#Instalattion)
+  - [Instalattion](#Installation)
   - [Usage](#Usage)
   - [Testing](#Testing)
 
