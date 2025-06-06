@@ -41,7 +41,7 @@ This project aims to facilitate the evaluation of students’ skills and knowled
 
 # Getting Started
 
-## Prerequisites
+# Prerequisites
 
 This project requires the following dependencies:
 
